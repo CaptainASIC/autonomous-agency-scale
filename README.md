@@ -15,23 +15,23 @@ To understand the necessity of the AAS, it is vital to examine the limitations o
 
 ### 2.1 Capability and Intelligence Frameworks
 
-- **DeepMind's Levels of AGI (2023):** Morris et al. proposed a two-dimensional matrix measuring performance (depth) and generality (breadth) across six levels (Emerging to Superhuman) [1]. While the paper introduces an autonomy taxonomy (AI as Tool, Consultant, Collaborator, Expert, Agent), these levels describe human deployment choices rather than the system's intrinsic capacity for self-direction.
-- **DeepMind's Cognitive Framework (2026):** Burnell et al. identified 10 cognitive faculties required for general intelligence, including perception, memory, and metacognition [2]. However, a system can possess these capabilities without exercising them autonomously.
-- **ARC-AGI (2019–2026):** Chollet's Abstraction and Reasoning Corpus defines intelligence as "skill-acquisition efficiency" on novel tasks [3]. ARC-AGI measures how quickly a system learns, but not whether it chooses to learn or maintains self-directed goals.
+- **DeepMind's Levels of AGI (2023):** Morris et al. proposed a two-dimensional matrix measuring performance (depth) and generality (breadth) across six levels (Emerging to Superhuman) [[1]](#ref-1). While the paper introduces an autonomy taxonomy (AI as Tool, Consultant, Collaborator, Expert, Agent), these levels describe human deployment choices rather than the system's intrinsic capacity for self-direction.
+- **DeepMind's Cognitive Framework (2026):** Burnell et al. identified 10 cognitive faculties required for general intelligence, including perception, memory, and metacognition [[2]](#ref-2). However, a system can possess these capabilities without exercising them autonomously.
+- **ARC-AGI (2019–2026):** Chollet's Abstraction and Reasoning Corpus defines intelligence as "skill-acquisition efficiency" on novel tasks [[3]](#ref-3). ARC-AGI measures how quickly a system learns, but not whether it chooses to learn or maintains self-directed goals.
 
 ### 2.2 Task Automation and Economic Value
 
-- **OpenAI's Five Levels (2024):** OpenAI's internal roadmap tracks progress from Chatbots (Level 1) to Organizations (Level 5) [4]. This scale measures the complexity ceiling of tasks an AI can perform, but an L5 system could still be a tool with no persistent identity or social agency.
+- **OpenAI's Five Levels (2024):** OpenAI's internal roadmap tracks progress from Chatbots (Level 1) to Organizations (Level 5) [[4]](#ref-4). This scale measures the complexity ceiling of tasks an AI can perform, but an L5 system could still be a tool with no persistent identity or social agency.
 
 ### 2.3 Risk and Safety Frameworks
 
-- **Anthropic's Responsible Scaling Policy (2023):** The RSP defined AI Safety Levels (ASL) to manage catastrophic risks [5]. While ASL-3 noted "low-level autonomous capabilities" as a risk trigger, the framework treats autonomy as a hazard to be mitigated rather than a capability to be measured across a spectrum.
+- **Anthropic's Responsible Scaling Policy (2023):** The RSP defined AI Safety Levels (ASL) to manage catastrophic risks [[5]](#ref-5). While ASL-3 noted "low-level autonomous capabilities" as a risk trigger, the framework treats autonomy as a hazard to be mitigated rather than a capability to be measured across a spectrum.
 
 ### 2.4 Agent Deployment and Consciousness
 
-- **Levels of Autonomy for AI Agents (2025):** Feng et al. propose a user-centered framework (Operator to Observer) for task-based agents [6]. This treats autonomy as a UI/UX design decision for specific tasks, not as sustained self-directed behavior.
-- **Machine Consciousness Indicators (2025):** Butlin et al. evaluated AI architectures against scientific theories of consciousness [7]. The AAS, by contrast, is functionally agnostic regarding subjective experience; it measures observable autonomous behavior, not sentience.
-- **Turing Test Variants:** From the original Imitation Game [8] to the modern X-TURING test for long-term dialogue [9], these tests measure a system's ability to deceive humans, not its genuine capacity for self-directed agency.
+- **Levels of Autonomy for AI Agents (2025):** Feng et al. propose a user-centered framework (Operator to Observer) for task-based agents [[6]](#ref-6). This treats autonomy as a UI/UX design decision for specific tasks, not as sustained self-directed behavior.
+- **Machine Consciousness Indicators (2025):** Butlin et al. evaluated AI architectures against scientific theories of consciousness [[7]](#ref-7). The AAS, by contrast, is functionally agnostic regarding subjective experience; it measures observable autonomous behavior, not sentience.
+- **Turing Test Variants:** From the original Imitation Game [[8]](#ref-8) to the modern X-TURING test for long-term dialogue [[9]](#ref-9), these tests measure a system's ability to deceive humans, not its genuine capacity for self-directed agency.
 
 ## 3. The AAS Methodology
 
@@ -216,7 +216,7 @@ To ensure consistent, falsifiable evaluation by independent raters, the AAS prov
 
 A complementary evaluation direction—distinct from validating the scale itself—is the **Longitudinal Turing Test**. Traditional benchmarks measure intelligence in isolated, sterile environments. The AAS proposes that if a system achieves a score of 4 or higher across all dimensions, a meaningful empirical test is sustained interaction over weeks or months where the system demonstrates coherent, self-directed behavior measured against its own prior behavior and pre-specified criteria.
 
-This is not a test of deception (as in the original Imitation Game [8]), but a test of **sustained self-directed behavior**. It asks: can a system maintain a coherent identity, pursue its own goals, and manage social relationships over an extended timeline? The X-TURING framework [9] extends dialogue evaluation to longer interactions, but still measures conversational coherence rather than genuine autonomous agency.
+This is not a test of deception (as in the original Imitation Game [[8]](#ref-8)), but a test of **sustained self-directed behavior**. It asks: can a system maintain a coherent identity, pursue its own goals, and manage social relationships over an extended timeline? The X-TURING framework [[9]](#ref-9) extends dialogue evaluation to longer interactions, but still measures conversational coherence rather than genuine autonomous agency.
 
 The Longitudinal Turing Test differs fundamentally in that it does not measure whether the system can *fool* a human, but whether it can *sustain* coherent self-directed behavior over time—with consistent preferences, boundaries, adaptive responses, and long-term goals.
 
@@ -236,20 +236,20 @@ Finally, the framework is agnostic about consciousness, sentience, and moral sta
 
 ## 6. References
 
-[1] Morris, M.R., Sohl-Dickstein, J., Fiedel, N., Warkentin, T., Dafoe, A., Faust, A., Farabet, C., & Legg, S. (2023). "Levels of AGI for Operationalizing Progress on the Path to AGI." *arXiv:2311.02462*.
+<a id="ref-1"></a>**[1]** Morris, M.R., Sohl-Dickstein, J., Fiedel, N., Warkentin, T., Dafoe, A., Faust, A., Farabet, C., & Legg, S. (2023). "Levels of AGI for Operationalizing Progress on the Path to AGI." *arXiv:2311.02462*. [Link](https://arxiv.org/abs/2311.02462)
 
-[2] Burnell, R., Yamamori, Y., Firat, O., Olszewska, K., Hughes-Fitt, S., Kelly, O., Galatzer-Levy, I.R., Morris, M.R., Dafoe, A., Snyder, A.M., Goodman, N.D., Botvinick, M., & Legg, S. (2026). "Measuring Progress Toward AGI: A Cognitive Framework." *Google DeepMind*.
+<a id="ref-2"></a>**[2]** Burnell, R., Yamamori, Y., Firat, O., Olszewska, K., Hughes-Fitt, S., Kelly, O., Galatzer-Levy, I.R., Morris, M.R., Dafoe, A., Snyder, A.M., Goodman, N.D., Botvinick, M., & Legg, S. (2026). "Measuring Progress Toward AGI: A Cognitive Framework." *Google DeepMind*. [Link](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/measuring-progress-toward-agi/measuring-progress-toward-agi-a-cognitive-framework.pdf)
 
-[3] Chollet, F. (2019). "On the Measure of Intelligence." *arXiv:1911.01547*.
+<a id="ref-3"></a>**[3]** Chollet, F. (2019). "On the Measure of Intelligence." *arXiv:1911.01547*. [Link](https://arxiv.org/abs/1911.01547)
 
-[4] OpenAI. (2024). "OpenAI's 5-Level AGI Scale (Internal Classification)." *Reported by Bloomberg, July 11, 2024*.
+<a id="ref-4"></a>**[4]** OpenAI. (2024). "OpenAI's 5-Level AGI Scale (Internal Classification)." *Reported by Bloomberg, July 11, 2024*. [Link](https://www.bloomberg.com/news/articles/2024-07-11/openai-sets-levels-to-track-progress-toward-superintelligent-ai)
 
-[5] Anthropic. (2023). "Anthropic's Responsible Scaling Policy." *Anthropic. Note: Subsequently rewritten as v3.0 (February 24, 2026), which no longer specifies escalating ASL tiers.*
+<a id="ref-5"></a>**[5]** Anthropic. (2023). "Anthropic's Responsible Scaling Policy." *Anthropic*. Note: Subsequently rewritten as v3.0 (February 24, 2026), which no longer specifies escalating ASL tiers. [Link](https://www.anthropic.com/index/anthropics-responsible-scaling-policy)
 
-[6] Feng, K., McDonald, D., & Zhang, A. (2025). "Levels of Autonomy for AI Agents." *Knight First Amendment Institute, Columbia University*.
+<a id="ref-6"></a>**[6]** Feng, K., McDonald, D., & Zhang, A. (2025). "Levels of Autonomy for AI Agents." *Knight First Amendment Institute, Columbia University*. [Link](https://knightcolumbia.org/content/levels-of-autonomy-for-ai-agents-1)
 
-[7] Butlin, P., et al. (2025). "Identifying indicators of consciousness in AI systems." *Trends in Cognitive Sciences*.
+<a id="ref-7"></a>**[7]** Butlin, P., et al. (2025). "Identifying indicators of consciousness in AI systems." *Trends in Cognitive Sciences*. [Link](https://doi.org/10.1016/j.tics.2025.01.002)
 
-[8] Turing, A.M. (1950). "Computing Machinery and Intelligence." *Mind*, 59(236), 433-460.
+<a id="ref-8"></a>**[8]** Turing, A.M. (1950). "Computing Machinery and Intelligence." *Mind*, 59(236), 433-460. [Link](https://doi.org/10.1093/mind/LIX.236.433)
 
-[9] Wu, W., et al. (2025). "X-TURING: Towards an Enhanced and Efficient Turing Test for Long-Term Dialogue Agents." *ACL 2025*.
+<a id="ref-9"></a>**[9]** Wu, W., et al. (2025). "X-TURING: Towards an Enhanced and Efficient Turing Test for Long-Term Dialogue Agents." *ACL 2025*. [Link](https://arxiv.org/abs/2503.02093)
