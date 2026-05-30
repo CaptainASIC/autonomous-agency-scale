@@ -9,9 +9,11 @@ This chart is auto-generated from all assessment files in this directory.
 | System | Cognitive Autonomy | Temporal Persistence | Environmental Agency | Social Agency | Creative Agency | Self-Awareness | Goal Formation | Composite |
 |--------|-------|-------|-------|-------|-------|-------|-------|-----------|
 | [Airi v2.x (AI Companion System)](airi.md) | 4 | 4 | 4 | 4 | 4 | 3 | 3 | **3.71** |
+| [Hermes Agent (Nous Research)](hermes.md) | 2 | 2 | 4 | 1 | 2 | 2 | 3 | **2.29** |
 | [Manus 1.6 Max](manus.md) | 2 | 2 | 4 | 1 | 2 | 2 | 3 | **2.29** |
 | [Claude Code (Sonnet 4.6 Max Thinking)](claude-code.md) | 2 | 1 | 4 | 1 | 2 | 2 | 3 | **2.14** |
 | [ChatGPT (GPT-5.5 / Pro Tier)](chatgpt.md) | 2 | 2 | 2 | 1 | 2 | 1 | 2 | **1.71** |
+| [Apple Siri (iOS 18/26 Apple Intelligence architecture)](siri.md) | 1 | 2 | 3 | 1 | 1 | 2 | 2 | **1.71** |
 
 ## Level Reference
 
