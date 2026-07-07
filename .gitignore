@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+.DS_Store
+.claude/
+.serena/
+PRPs/
+TASKS.md
+PLANNING.md

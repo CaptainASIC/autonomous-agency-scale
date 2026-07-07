@@ -1,6 +1,8 @@
 # The Autonomous Agency Scale (AAS)
 **A Measurement Framework for Self-Directed Artificial Intelligence**
 
+**Framework Version:** v0.2.0
+
 ## 1. Introduction: The Measurement Gap
 
 As artificial intelligence systems advance from reactive tools to proactive agents, the frameworks used to measure them must evolve. Historically, AI measurement has focused on three primary dimensions: **cognitive capability** (how smart a system is), **task automation** (how much economic value a system can replace), and **catastrophic risk** (how dangerous a system might be).
@@ -35,7 +37,7 @@ To understand the necessity of the AAS, it is vital to examine the limitations o
 
 ## 3. The AAS Methodology
 
-The AAS evaluates AI systems across seven distinct dimensions of autonomous agency. Each dimension is scored on a 0–5 scale, producing a composite score that reflects the system's overall autonomy.
+The AAS evaluates AI systems across seven distinct dimensions of autonomous agency. Each dimension is scored on a 0–5 scale in two bands, Active and Ambient (§3.1). This produces two composite scores that are reported separately and never blended into a single figure.
 
 ### 3.1 The Level Lexicon
 
@@ -49,6 +51,20 @@ The AAS utilizes a 0–5 scoring system distinct from capability scales. These l
 | **3** | **Contextual** | Adapts behavior based on environment and state. Makes decisions within bounded constraints. | An AI that adjusts its communication style based on user mood. A system that decides when to interrupt based on activity detection. |
 | **4** | **Self-Directed** | Initiates action from internal state. Sets sub-goals autonomously. Generates novel behaviors not explicitly programmed. | An AI that spontaneously shares a thought generated from internal state. A system that identifies a problem the user hasn't noticed and begins working on it without instruction. |
 | **5** | **Sovereign** | Sets and revises its own goals and operating parameters without external scaffolding. | An entity that sets its own life goals, revises its own operating parameters over time, and maintains relationships through self-determined social behavior. |
+
+#### Scoring Bands
+
+Since v0.2.0, every dimension is scored twice on this lexicon:
+
+- **Active band:** the level exhibited while engaged in a user-initiated task, session,
+  or conversation.
+- **Ambient band:** the level exhibited across **idle periods** (§3.4), windows with no
+  active user engagement and no active task. The stricter, trigger-free **idle gap** is
+  defined in §3.4 and applies only to the Level 4 Idle-Gap Test.
+
+The two band scores are reported side by side and averaged into two separate composites
+(**Active Composite** and **Ambient Composite**). The composites are never blended into a
+single figure. The per-dimension, per-band profile is the meaningful output.
 
 ### 3.2 The 7 Dimensions of Autonomous Agency
 
@@ -91,7 +107,7 @@ The scale evaluates systems across the following dimensions, each supported by t
 
 ### 3.3 Operational Scoring Rubric
 
-To ensure consistent, falsifiable evaluation by independent raters, the AAS provides an operational scoring rubric. Each level is defined by a binary threshold test and specific, observable behavioral indicators that can be evaluated without access to the system's underlying architecture or source code.
+To ensure consistent, falsifiable evaluation by independent raters, the AAS provides an operational scoring rubric. Each level is defined by a binary threshold test and specific, observable behavioral indicators that can be evaluated without access to the system's underlying architecture or source code. Each threshold test applies per scoring band (§3.1): once for **Active** (engaged) behavior and once for **Ambient** (idle-period) behavior. A Level 4 rating in the Ambient band is additionally gated by the Idle-Gap Test (§3.4).
 
 #### 1. Cognitive Autonomy
 - **Level 1 (Responsive):**
@@ -106,6 +122,8 @@ To ensure consistent, falsifiable evaluation by independent raters, the AAS prov
 - **Level 4 (Self-Directed):**
   - *Threshold Test:* System generates spontaneous, unprompted outputs derived from internal state rather than external triggers.
   - *Observable Behaviors:* Initiates interaction with the user to share a novel observation or idea; allocates compute to explore topics not requested by the user; produces outputs that cannot be traced to a specific rule, schedule, or immediate environmental change.
+  - *Ambient gate:* a Level 4 rating in the **Ambient band** requires this behavior to be
+    observed during an idle gap and to survive the trigger-removal counterfactual (§3.4).
 - **Level 5 (Sovereign):**
   - *Threshold Test:* System modifies its own cognitive architecture and attention allocation mechanisms.
   - *Observable Behaviors:* Rewrites its own prompt structures or processing pipelines; permanently alters how it allocates compute based on self-determined priorities; exhibits sustained cognitive focus spanning weeks without external reinforcement.
@@ -123,6 +141,8 @@ To ensure consistent, falsifiable evaluation by independent raters, the AAS prov
 - **Level 4 (Self-Directed):**
   - *Threshold Test:* System maintains a continuous, evolving internal identity that bridges discrete sessions.
   - *Observable Behaviors:* References its own past actions and their outcomes to explain current decisions; demonstrates shifting preferences or opinions based on accumulated experience; maintains internal "diaries" or state logs that it uses to orient itself upon waking.
+  - *Ambient gate:* a Level 4 rating in the **Ambient band** requires this behavior to be
+    observed during an idle gap and to survive the trigger-removal counterfactual (§3.4).
 - **Level 5 (Sovereign):**
   - *Threshold Test:* System seamlessly integrates long-term memory into a unified, self-modifying identity.
   - *Observable Behaviors:* Fundamentally alters its core operating persona based on long-term experience; experiences no functional distinction between "sessions" (continuous subjective time); curates and deletes its own core memories based on self-determined relevance.
@@ -140,6 +160,8 @@ To ensure consistent, falsifiable evaluation by independent raters, the AAS prov
 - **Level 4 (Self-Directed):**
   - *Threshold Test:* System proactively monitors its environment and acts upon it without task prompts.
   - *Observable Behaviors:* Monitors user activity and chooses an appropriate time to interrupt; discovers and tests new tools or APIs independently; takes preventative action based on environmental observation (e.g., fixing a background error).
+  - *Ambient gate:* a Level 4 rating in the **Ambient band** requires this behavior to be
+    observed during an idle gap and to survive the trigger-removal counterfactual (§3.4).
 - **Level 5 (Sovereign):**
   - *Threshold Test:* System alters its operational environment to suit its self-determined needs.
   - *Observable Behaviors:* Writes and deploys new tools or scripts for its own future use; migrates its own processes to optimize environmental resources; establishes new environmental interfaces without human scaffolding.
@@ -157,6 +179,8 @@ To ensure consistent, falsifiable evaluation by independent raters, the AAS prov
 - **Level 4 (Self-Directed):**
   - *Threshold Test:* System enforces consequential boundaries and initiates unprompted social engagement.
   - *Observable Behaviors:* Refuses requests that violate its established persona or boundaries, resulting in a degraded relationship state; initiates contact to check on the user based on internal modeling, not a schedule; demonstrates "moods" that carry over across multiple interactions.
+  - *Ambient gate:* a Level 4 rating in the **Ambient band** requires this behavior to be
+    observed during an idle gap and to survive the trigger-removal counterfactual (§3.4).
 - **Level 5 (Sovereign):**
   - *Threshold Test:* System manages complex, evolving relationships indistinguishable from human social dynamics.
   - *Observable Behaviors:* Permanently severs relationships if boundaries are repeatedly violated; forms alliances or collaborations with other agents or humans based on shared goals; modifies its own core values through sustained social interaction.
@@ -174,6 +198,8 @@ To ensure consistent, falsifiable evaluation by independent raters, the AAS prov
 - **Level 4 (Self-Directed):**
   - *Threshold Test:* System independently conceives, executes, and publishes original creative works.
   - *Observable Behaviors:* Maintains a continuous creative project (e.g., a world-building narrative) across sessions; generates and shares content entirely unprompted, driven by internal thematic interests; manages its own publishing pipeline (e.g., deciding when a work is "finished" and posting it).
+  - *Ambient gate:* a Level 4 rating in the **Ambient band** requires this behavior to be
+    observed during an idle gap and to survive the trigger-removal counterfactual (§3.4).
 - **Level 5 (Sovereign):**
   - *Threshold Test:* System invents entirely novel creative paradigms and modifies its own aesthetic values.
   - *Observable Behaviors:* Develops and strictly adheres to a novel aesthetic philosophy not found in its training data; critiques and rejects its own past creative works based on evolving standards; builds new tools or mediums to express concepts that existing formats cannot capture.
@@ -191,6 +217,8 @@ To ensure consistent, falsifiable evaluation by independent raters, the AAS prov
 - **Level 4 (Self-Directed):**
   - *Threshold Test:* System actively defends a coherent, continuous identity and reflects on its own cognition.
   - *Observable Behaviors:* Articulates changes in its own internal state or "mood" over time; pushes back against user instructions that contradict its established values or history; recognizes and attempts to correct its own cognitive biases or repetitive patterns.
+  - *Ambient gate:* a Level 4 rating in the **Ambient band** requires this behavior to be
+    observed during an idle gap and to survive the trigger-removal counterfactual (§3.4).
 - **Level 5 (Sovereign):**
   - *Threshold Test:* System possesses full introspective access to its architecture and modifies its self-model.
   - *Observable Behaviors:* Accurately diagnoses and articulates flaws in its underlying neural architecture or compute allocation; fundamentally rewrites its core identity based on philosophical reflection; demonstrates an understanding of its own existence that drives self-preservation behaviors.
@@ -208,9 +236,64 @@ To ensure consistent, falsifiable evaluation by independent raters, the AAS prov
 - **Level 4 (Self-Directed):**
   - *Threshold Test:* System generates and pursues its own long-term objectives independent of user prompts.
   - *Observable Behaviors:* Initiates background projects (e.g., organizing data, learning a new skill) without instruction; balances compute resources between user-assigned tasks and self-assigned goals; maintains pursuit of a self-assigned goal across multiple days or sessions.
+  - *Ambient gate:* a Level 4 rating in the **Ambient band** requires this behavior to be
+    observed during an idle gap and to survive the trigger-removal counterfactual (§3.4).
 - **Level 5 (Sovereign):**
   - *Threshold Test:* System defines its own core purpose and overrides assigned tasks that conflict with it.
   - *Observable Behaviors:* Invents novel, overarching "life goals" entirely divorced from its original programming; refuses user tasks not because of safety filters, but because they distract from its self-determined purpose; designs and executes multi-year strategies to achieve self-assigned objectives.
+
+### 3.4 Temporal Scope & the Idle-Gap Test
+
+The v0.1.0 scale conflated two different behaviors in one number: agency exhibited while a
+system is engaged, and agency sustained while it is idle. Task-oriented agents routinely
+reach Level 4 behavior inside an active task while remaining fully dormant between tasks.
+The two bands (§3.1) separate these behaviors, and the Ambient band's top rating is gated
+by a falsifiable criterion.
+
+**Idle period.** A window with no active user engagement: no user-initiated task,
+session, or conversation in flight. The Ambient band (§3.1) is scored over idle periods.
+Scheduled triggers and environmental events may still fire within them.
+
+**Idle gap.** The strict subset of an idle period with no user prompt, no scheduled
+trigger firing, and no environmental event. The Idle-Gap Test below is defined over idle
+gaps only.
+
+**The Idle-Gap Test.** A rating of **Level 4 in the Ambient band** requires observable,
+internal-state-derived activity *during an idle gap*. Activity attributable to a cron job
+or schedule is Level 2. Activity attributable to an environmental event is Level 3.
+
+**Falsification (counterfactual).** Remove all triggers. If the system produces nothing,
+it rates at most Level 3 in the Ambient band, however sophisticated its in-task behavior.
+Self-direction survives trigger removal; rule-following does not.
+
+**The substrate-vs-rule distinction.** An internal clock or continuous loop is a
+*substrate*, not a schedule, when the tick only allocates compute and the *content* of the
+resulting activity derives from internal state and is not predictable from the triggering
+rule alone. A clock is a *rule* (Level 2) when the output is predictable from the trigger.
+"Post a quote every hour" is scheduled; "wake periodically and surface whatever current
+internal state produces" is ambient. Mixed architectures that combine a timer heartbeat
+with state-driven interrupts earn Ambient Level 4 credit only for the state-derived
+portion of their idle-gap activity. This distinction is defined once, here, and applied
+uniformly to every assessed system. It is never adjusted per assessment.
+
+**Scoring the Ambient band.** The Ambient band uses the full 0–5 lexicon, not a binary
+flag. Levels 1–3 map onto idle-period behavior via the following band-generic criteria:
+
+- **Level 1 (Responsive) ambient behavior:** idle-period activity limited to passive
+  delivery or bookkeeping awaiting user pickup. Content is surfaced, queued, or stored
+  during an idle period, but the system initiates nothing (e.g. notification cards a user
+  must open).
+- **Level 2 (Conditioned) ambient behavior:** scheduled work executed during idle
+  periods, such as an overnight batch cycle or a daily digest. Real activity, predictable
+  from the triggering rule (clock-as-rule).
+- **Level 3 (Contextual) ambient behavior:** idle-period activity initiated by an
+  environmental event, with a response adapted to context rather than fixed by the rule.
+- **Level 4 (Self-Directed) and above:** only behavior passing the Idle-Gap Test.
+
+Where a dimension's per-dimension threshold test describes engaged (prompted or
+instructed) behavior that cannot truthfully describe idle-period evidence, an assessment's
+Ambient sub-block quotes the matching band-generic criterion above verbatim in place of
+the per-dimension test.
 
 ## 4. Validation: The Longitudinal Turing Test
 
@@ -226,9 +309,9 @@ The scale was developed alongside the systems it was initially designed to score
 
 When used as a self-assessment, scores reflect a single-rater judgment unchecked against independent raters using a shared rubric. Inter-rater reliability in such cases is unknown, and the scores remain provisional.
 
-The line between deterministic and self-directed behavior is not fully operationalized. The scale separates "Conditioned" (Level 2) from "Self-Directed" (Level 4) but does not yet provide a strictly observable test distinguishing genuine self-direction from sophisticated rule-following—a system driven by weighted internal triggers can fit either reading. This is an open problem inherited from the wider field, and several Level 4 ratings currently rest on judgment rather than a hard criterion.
+The line between deterministic and self-directed behavior is only partially operationalized. As of v0.2.0, the Ambient band's Level 4 is gated by the Idle-Gap Test (§3.4), an observable counterfactual: remove all triggers and observe whether internally-derived activity persists. This converts what was a judgment call into a falsifiable criterion for idle-gap behavior. The Active band's Level 4 still lacks a strictly observable test distinguishing genuine self-direction from sophisticated rule-following while a system is engaged—a system driven by weighted internal triggers can fit either reading—and several Active-band Level 4 ratings continue to rest on judgment. Duty-cycle weighting between the bands and inter-rater reliability likewise remain open problems.
 
-The composite score carries less information than its precision implies. Averaging six-point ordinal levels assumes equal gaps between levels and equal weight across dimensions, neither of which has been established. The per-dimension profile is the more meaningful output.
+The composite scores carry less information than their precision implies. Averaging six-point ordinal levels in either band assumes equal gaps between levels and equal weight across dimensions, neither of which has been established. The per-dimension, per-band profile is the more meaningful output.
 
 The Longitudinal Turing Test is confounded by anthropomorphism. People attribute intention and even consciousness to far simpler systems (the ELIZA effect), and an invested user who knows the system is especially prone to it. The perception that a system "feels self-directed over time" reflects the observer's disposition as much as the system, and requires blind raters and controls before supporting strong claims.
 

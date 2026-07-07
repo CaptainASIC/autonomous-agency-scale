@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" width="700" height="700">
+<rect width="700" height="700" fill="#0a0a0f"/>
+<line x1="90.0" y1="610.0" x2="90.0" y2="90.0" stroke="#374151" stroke-width="1" opacity="0.2"/>
+<line x1="90.0" y1="610.0" x2="610.0" y2="610.0" stroke="#374151" stroke-width="1" opacity="0.2"/>
+<text x="90.0" y="634.0" font-family="monospace" font-size="11" fill="#6b7280" text-anchor="middle">0</text>
+<text x="78.0" y="614.0" font-family="monospace" font-size="11" fill="#6b7280" text-anchor="end">0</text>
+<line x1="194.0" y1="610.0" x2="194.0" y2="90.0" stroke="#374151" stroke-width="1" opacity="0.2"/>
+<line x1="90.0" y1="506.0" x2="610.0" y2="506.0" stroke="#374151" stroke-width="1" opacity="0.2"/>
+<text x="194.0" y="634.0" font-family="monospace" font-size="11" fill="#6b7280" text-anchor="middle">1</text>
+<text x="78.0" y="510.0" font-family="monospace" font-size="11" fill="#6b7280" text-anchor="end">1</text>
+<line x1="298.0" y1="610.0" x2="298.0" y2="90.0" stroke="#374151" stroke-width="1" opacity="0.2"/>
+<line x1="90.0" y1="402.0" x2="610.0" y2="402.0" stroke="#374151" stroke-width="1" opacity="0.2"/>
+<text x="298.0" y="634.0" font-family="monospace" font-size="11" fill="#6b7280" text-anchor="middle">2</text>
+<text x="78.0" y="406.0" font-family="monospace" font-size="11" fill="#6b7280" text-anchor="end">2</text>
+<line x1="402.0" y1="610.0" x2="402.0" y2="90.0" stroke="#374151" stroke-width="1" opacity="0.2"/>
+<line x1="90.0" y1="298.0" x2="610.0" y2="298.0" stroke="#374151" stroke-width="1" opacity="0.2"/>
+<text x="402.0" y="634.0" font-family="monospace" font-size="11" fill="#6b7280" text-anchor="middle">3</text>
+<text x="78.0" y="302.0" font-family="monospace" font-size="11" fill="#6b7280" text-anchor="end">3</text>
+<line x1="506.0" y1="610.0" x2="506.0" y2="90.0" stroke="#374151" stroke-width="1" opacity="0.2"/>
+<line x1="90.0" y1="194.0" x2="610.0" y2="194.0" stroke="#374151" stroke-width="1" opacity="0.2"/>
+<text x="506.0" y="634.0" font-family="monospace" font-size="11" fill="#6b7280" text-anchor="middle">4</text>
+<text x="78.0" y="198.0" font-family="monospace" font-size="11" fill="#6b7280" text-anchor="end">4</text>
+<line x1="610.0" y1="610.0" x2="610.0" y2="90.0" stroke="#374151" stroke-width="1" opacity="0.2"/>
+<line x1="90.0" y1="90.0" x2="610.0" y2="90.0" stroke="#374151" stroke-width="1" opacity="0.2"/>
+<text x="610.0" y="634.0" font-family="monospace" font-size="11" fill="#6b7280" text-anchor="middle">5</text>
+<text x="78.0" y="94.0" font-family="monospace" font-size="11" fill="#6b7280" text-anchor="end">5</text>
+<line x1="298.0" y1="610.0" x2="298.0" y2="90.0" stroke="#6b7280" stroke-width="1" stroke-dasharray="6 4" opacity="0.5"/>
+<line x1="90.0" y1="402.0" x2="610.0" y2="402.0" stroke="#6b7280" stroke-width="1" stroke-dasharray="6 4" opacity="0.5"/>
+<text x="194.0" y="506.0" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#4b5563" text-anchor="middle" font-style="italic">Reactive</text>
+<text x="454.0" y="506.0" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#4b5563" text-anchor="middle" font-style="italic">Task Agents</text>
+<text x="194.0" y="246.0" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#4b5563" text-anchor="middle" font-style="italic">Scheduled / Background</text>
+<text x="454.0" y="246.0" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#4b5563" text-anchor="middle" font-style="italic">Ambient Agents</text>
+<text x="350.0" y="672.0" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#d1d5db" text-anchor="middle">Active Composite (engaged) →</text>
+<text x="28" y="350.0" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#d1d5db" text-anchor="middle" transform="rotate(-90 28 350.0)">Ambient Composite (idle period) →</text>
+<circle cx="476.3" cy="223.7" r="7" fill="#ec4899" stroke="#0a0a0f" stroke-width="1.5"/>
+<text x="488.3" y="227.7" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e5e7eb">Airi v2.x</text>
+<circle cx="253.4" cy="520.9" r="7" fill="#fb923c" stroke="#0a0a0f" stroke-width="1.5"/>
+<text x="265.4" y="524.9" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e5e7eb">ChatGPT</text>
+<circle cx="327.7" cy="550.6" r="7" fill="#60a5fa" stroke="#0a0a0f" stroke-width="1.5"/>
+<text x="339.7" y="554.6" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e5e7eb">Claude Code</text>
+<circle cx="342.6" cy="416.9" r="7" fill="#4ade80" stroke="#0a0a0f" stroke-width="1.5"/>
+<text x="354.6" y="420.9" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e5e7eb">Hermes Agent</text>
+<circle cx="342.6" cy="535.7" r="7" fill="#c084fc" stroke="#0a0a0f" stroke-width="1.5"/>
+<text x="354.6" y="575.7" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e5e7eb">Manus 1.6 Max</text>
+<circle cx="268.3" cy="580.3" r="7" fill="#fbbf24" stroke="#0a0a0f" stroke-width="1.5"/>
+<text x="280.3" y="602.3" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e5e7eb">Apple Siri</text>
+<text x="350.0" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#f9fafb" text-anchor="middle">Autonomous Agency Scale — Active vs Ambient</text>
+</svg>

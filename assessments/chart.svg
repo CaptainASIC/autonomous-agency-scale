@@ -39,32 +39,32 @@
 <circle cx="263.2" cy="530.2" r="4" fill="#ec4899" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="203.8" cy="383.4" r="4" fill="#ec4899" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="232.7" cy="256.5" r="4" fill="#ec4899" stroke="#0a0a0f" stroke-width="1.5"/>
-<polygon points="350.0,250.0 428.2,287.7 447.5,372.3 371.7,395.0 306.6,440.1 301.3,361.1 271.8,287.7" fill="rgba(251, 146, 60, 0.15)" stroke="#fb923c" stroke-width="2.5"/>
-<circle cx="350.0" cy="250.0" r="4" fill="#fb923c" stroke="#0a0a0f" stroke-width="1.5"/>
+<polygon points="350.0,300.0 428.2,287.7 447.5,372.3 371.7,395.0 328.3,395.0 252.5,372.3 271.8,287.7" fill="rgba(251, 146, 60, 0.15)" stroke="#fb923c" stroke-width="2.5"/>
+<circle cx="350.0" cy="300.0" r="4" fill="#fb923c" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="428.2" cy="287.7" r="4" fill="#fb923c" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="447.5" cy="372.3" r="4" fill="#fb923c" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="371.7" cy="395.0" r="4" fill="#fb923c" stroke="#0a0a0f" stroke-width="1.5"/>
-<circle cx="306.6" cy="440.1" r="4" fill="#fb923c" stroke="#0a0a0f" stroke-width="1.5"/>
-<circle cx="301.3" cy="361.1" r="4" fill="#fb923c" stroke="#0a0a0f" stroke-width="1.5"/>
+<circle cx="328.3" cy="395.0" r="4" fill="#fb923c" stroke="#0a0a0f" stroke-width="1.5"/>
+<circle cx="252.5" cy="372.3" r="4" fill="#fb923c" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="271.8" cy="287.7" r="4" fill="#fb923c" stroke="#0a0a0f" stroke-width="1.5"/>
-<polygon points="350.0,250.0 389.1,318.8 545.0,394.5 371.7,395.0 306.6,440.1 252.5,372.3 232.7,256.5" fill="rgba(96, 165, 250, 0.15)" stroke="#60a5fa" stroke-width="2.5"/>
-<circle cx="350.0" cy="250.0" r="4" fill="#60a5fa" stroke="#0a0a0f" stroke-width="1.5"/>
+<polygon points="350.0,200.0 389.1,318.8 545.0,394.5 371.7,395.0 306.6,440.1 252.5,372.3 232.7,256.5" fill="rgba(96, 165, 250, 0.15)" stroke="#60a5fa" stroke-width="2.5"/>
+<circle cx="350.0" cy="200.0" r="4" fill="#60a5fa" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="389.1" cy="318.8" r="4" fill="#60a5fa" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="545.0" cy="394.5" r="4" fill="#60a5fa" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="371.7" cy="395.0" r="4" fill="#60a5fa" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="306.6" cy="440.1" r="4" fill="#60a5fa" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="252.5" cy="372.3" r="4" fill="#60a5fa" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="232.7" cy="256.5" r="4" fill="#60a5fa" stroke="#0a0a0f" stroke-width="1.5"/>
-<polygon points="350.0,250.0 428.2,287.7 545.0,394.5 371.7,395.0 306.6,440.1 252.5,372.3 232.7,256.5" fill="rgba(74, 222, 128, 0.15)" stroke="#4ade80" stroke-width="2.5"/>
-<circle cx="350.0" cy="250.0" r="4" fill="#4ade80" stroke="#0a0a0f" stroke-width="1.5"/>
+<polygon points="350.0,200.0 428.2,287.7 545.0,394.5 371.7,395.0 306.6,440.1 252.5,372.3 232.7,256.5" fill="rgba(74, 222, 128, 0.15)" stroke="#4ade80" stroke-width="2.5"/>
+<circle cx="350.0" cy="200.0" r="4" fill="#4ade80" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="428.2" cy="287.7" r="4" fill="#4ade80" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="545.0" cy="394.5" r="4" fill="#4ade80" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="371.7" cy="395.0" r="4" fill="#4ade80" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="306.6" cy="440.1" r="4" fill="#4ade80" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="252.5" cy="372.3" r="4" fill="#4ade80" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="232.7" cy="256.5" r="4" fill="#4ade80" stroke="#0a0a0f" stroke-width="1.5"/>
-<polygon points="350.0,250.0 428.2,287.7 545.0,394.5 371.7,395.0 306.6,440.1 252.5,372.3 232.7,256.5" fill="rgba(192, 132, 252, 0.15)" stroke="#c084fc" stroke-width="2.5"/>
-<circle cx="350.0" cy="250.0" r="4" fill="#c084fc" stroke="#0a0a0f" stroke-width="1.5"/>
+<polygon points="350.0,200.0 428.2,287.7 545.0,394.5 371.7,395.0 306.6,440.1 252.5,372.3 232.7,256.5" fill="rgba(192, 132, 252, 0.15)" stroke="#c084fc" stroke-width="2.5"/>
+<circle cx="350.0" cy="200.0" r="4" fill="#c084fc" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="428.2" cy="287.7" r="4" fill="#c084fc" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="545.0" cy="394.5" r="4" fill="#c084fc" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="371.7" cy="395.0" r="4" fill="#c084fc" stroke="#0a0a0f" stroke-width="1.5"/>
@@ -83,14 +83,14 @@
 <rect x="20" y="520" width="14" height="14" rx="2" fill="#ec4899"/>
 <text x="42" y="530" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e5e7eb" dominant-baseline="middle">Airi v2.x (AI Companion System) (3.71)</text>
 <rect x="20" y="545" width="14" height="14" rx="2" fill="#fb923c"/>
-<text x="42" y="555" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e5e7eb" dominant-baseline="middle">ChatGPT (GPT-5.5 / Pro Tier) (1.71)</text>
+<text x="42" y="555" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e5e7eb" dominant-baseline="middle">ChatGPT (GPT-5.5 / Pro Tier) (1.57)</text>
 <rect x="20" y="570" width="14" height="14" rx="2" fill="#60a5fa"/>
-<text x="42" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e5e7eb" dominant-baseline="middle">Claude Code (Sonnet 4.6 Max Thinking) (2.14)</text>
+<text x="42" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e5e7eb" dominant-baseline="middle">Claude Code (Sonnet 4.6 Max Thinking) (2.29)</text>
 <rect x="20" y="595" width="14" height="14" rx="2" fill="#4ade80"/>
-<text x="42" y="605" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e5e7eb" dominant-baseline="middle">Hermes Agent (Nous Research) (2.29)</text>
+<text x="42" y="605" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e5e7eb" dominant-baseline="middle">Hermes Agent (Nous Research) (2.43)</text>
 <rect x="20" y="620" width="14" height="14" rx="2" fill="#c084fc"/>
-<text x="42" y="630" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e5e7eb" dominant-baseline="middle">Manus 1.6 Max (2.29)</text>
+<text x="42" y="630" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e5e7eb" dominant-baseline="middle">Manus 1.6 Max (2.43)</text>
 <rect x="20" y="645" width="14" height="14" rx="2" fill="#fbbf24"/>
 <text x="42" y="655" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e5e7eb" dominant-baseline="middle">Apple Siri (iOS 18/26 Apple Intelligence architecture) (1.71)</text>
-<text x="350.0" y="30" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#f9fafb" text-anchor="middle">Autonomous Agency Scale — Comparative Assessment</text>
+<text x="350.0" y="30" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#f9fafb" text-anchor="middle">Autonomous Agency Scale — Active Band</text>
 </svg>
