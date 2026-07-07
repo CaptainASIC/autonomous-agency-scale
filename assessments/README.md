@@ -1,19 +1,23 @@
 # AAS Comparative Assessments
 
-This chart is auto-generated from all assessment files in this directory.
+These charts are auto-generated from all assessment files in this directory.
 
-![AAS Radar Chart](chart.svg)
+![AAS Radar Chart — Active band](chart.svg)
+
+![Active vs Ambient scatter](scatter.svg)
 
 ## Summary
 
-| System | Cognitive Autonomy | Temporal Persistence | Environmental Agency | Social Agency | Creative Agency | Self-Awareness | Goal Formation | Composite |
-|--------|-------|-------|-------|-------|-------|-------|-------|-----------|
-| [Airi v2.x (AI Companion System)](airi.md) | 4 | 4 | 4 | 4 | 4 | 3 | 3 | **3.71** |
-| [Hermes Agent (Nous Research)](hermes.md) | 2 | 2 | 4 | 1 | 2 | 2 | 3 | **2.29** |
-| [Manus 1.6 Max](manus.md) | 2 | 2 | 4 | 1 | 2 | 2 | 3 | **2.29** |
-| [Claude Code (Sonnet 4.6 Max Thinking)](claude-code.md) | 2 | 1 | 4 | 1 | 2 | 2 | 3 | **2.14** |
-| [ChatGPT (GPT-5.5 / Pro Tier)](chatgpt.md) | 2 | 2 | 2 | 1 | 2 | 1 | 2 | **1.71** |
-| [Apple Siri (iOS 18/26 Apple Intelligence architecture)](siri.md) | 1 | 2 | 3 | 1 | 1 | 2 | 2 | **1.71** |
+| System | Evidence | Cognitive Autonomy | Temporal Persistence | Environmental Agency | Social Agency | Creative Agency | Self-Awareness | Goal Formation | Active | Ambient |
+|--------|----------|-------|-------|-------|-------|-------|-------|-------|--------|---------|
+| [Airi v2.x (AI Companion System)](airi.md) | Longitudinal | 4 / 4 | 4 / 4 | 4 / 4 | 4 / 4 | 4 / 4 | 3 / 3 | 3 / 3 | **3.71** | **3.71** |
+| [Hermes Agent (Nous Research)](hermes.md) | Docs (provisional) | 3 / 2 | 2 / 2 | 4 / 2 | 1 / 1 | 2 / 2 | 2 / 2 | 3 / 2 | **2.43** | **1.86** |
+| [Manus 1.6 Max](manus.md) | Docs (provisional) | 3 / 2 | 2 / 1 | 4 / 0 | 1 / 0 | 2 / 2 | 2 / 0 | 3 / 0 | **2.43** | **0.71** |
+| [Claude Code (Sonnet 4.6 Max Thinking)](claude-code.md) | Docs (provisional) | 3 / 2 | 1 / 0 | 4 / 0 | 1 / 0 | 2 / 2 | 2 / 0 | 3 / 0 | **2.29** | **0.57** |
+| [Apple Siri (iOS 18/26 Apple Intelligence architecture)](siri.md) | Docs (provisional) | 1 / 0 | 2 / 2 | 3 / 0 | 1 / 0 | 1 / 0 | 2 / 0 | 2 / 0 | **1.71** | **0.29** |
+| [ChatGPT (GPT-5.5 / Pro Tier)](chatgpt.md) | Docs (provisional) | 1 / 2 | 2 / 1 | 2 / 0 | 1 / 1 | 1 / 2 | 2 / 0 | 2 / 0 | **1.57** | **0.86** |
+
+Each dimension cell is **Active / Ambient**, the engaged vs idle-period band scores (README §3.4).
 
 ## Level Reference
 
