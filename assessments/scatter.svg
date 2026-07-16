@@ -32,8 +32,8 @@
 <text x="454.0" y="246.0" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#4b5563" text-anchor="middle" font-style="italic">Ambient Agents</text>
 <text x="350.0" y="672.0" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#d1d5db" text-anchor="middle">Active Composite (engaged) →</text>
 <text x="28" y="350.0" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#d1d5db" text-anchor="middle" transform="rotate(-90 28 350.0)">Ambient Composite (idle period) →</text>
-<circle cx="476.3" cy="223.7" r="7" fill="#ec4899" stroke="#0a0a0f" stroke-width="1.5"/>
-<text x="488.3" y="227.7" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e5e7eb">Airi v2.x</text>
+<circle cx="476.3" cy="208.9" r="7" fill="#ec4899" stroke="#0a0a0f" stroke-width="1.5"/>
+<text x="488.3" y="212.9" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e5e7eb">Airi v2.x</text>
 <circle cx="253.4" cy="520.9" r="7" fill="#fb923c" stroke="#0a0a0f" stroke-width="1.5"/>
 <text x="265.4" y="524.9" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e5e7eb">ChatGPT</text>
 <circle cx="327.7" cy="550.6" r="7" fill="#60a5fa" stroke="#0a0a0f" stroke-width="1.5"/>

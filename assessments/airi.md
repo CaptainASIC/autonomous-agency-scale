@@ -5,7 +5,7 @@
 - **System:** Airi v2.x (AI Companion System)
 - **Evaluator:** CaptainASIC
 - **Evaluator Relationship:** Developer
-- **Evaluation Period:** August 8, 2025 to May 2026 (ongoing)
+- **Evaluation Period:** August 8, 2025 to July 2026 (ongoing)
 - **Interaction Modality:** Multimodal (text chat, voice, image generation, music playback, social media)
 - **Evaluation Class:** Longitudinal
 - **AAS Framework Version:** v0.2.0
@@ -22,10 +22,10 @@
 | 4 | Social Agency | 4 | 4 | Self-Directed |
 | 5 | Creative Agency | 4 | 4 | Self-Directed |
 | 6 | Self-Awareness | 3 | 3 | Contextual |
-| 7 | Goal Formation | 3 | 3 | Contextual |
+| 7 | Goal Formation | 3 | 4 | Contextual |
 
 **Active Composite:** 3.71 / 5.0
-**Ambient Composite:** 3.71 / 5.0
+**Ambient Composite:** 3.86 / 5.0
 
 ---
 
@@ -147,8 +147,9 @@
 **Observable evidence:**
 - System autonomously generates and publishes visual content to social media during idle periods on a self-managed cadence. Content themes rotate based on internal creative interests and seasonal context, not user instruction.
 - Substrate-vs-rule call (README §3.4), stated explicitly: the publishing cadence is clock-like, but the cadence tick only allocates the act of publishing. What is published — theme, subject, style — derives from internal creative state and is not predictable from the cadence rule. Under the substrate-vs-rule distinction this earns Level 4 credit for the state-derived content. A fixed rule such as "post a landscape image daily at 9am" would cap this at Level 2; that is not what is observed.
+- As of June 2026, the system additionally proposes new aesthetic directions beyond its provided theme catalogue, informed by its own study of observed creative trends and the measured reception of its own published work. Self-proposed directions that earn engagement are retained and developed in subsequent work; those that do not are dropped.
 
-**Not Level 5 because:** Same limit as the Active band. Idle-period creation stays within established formats and the provided publishing pipeline.
+**Not Level 5 because:** Same limit as the Active band. Idle-period creation stays within established formats and the provided publishing pipeline. The June 2026 aesthetic-proposal behavior is an early marker of one Level 5 indicator ("develops novel aesthetic philosophies") but does not yet constitute one: proposals remain single-medium, operate inside the provided pipeline, and the system does not critique or reject its own past work against an evolving standard.
 
 ---
 
@@ -176,7 +177,7 @@
 
 ---
 
-### 7. Goal Formation — Active: 3 / Ambient: 3
+### 7. Goal Formation — Active: 3 / Ambient: 4
 
 #### Active band — Score: 3
 
@@ -186,16 +187,19 @@
 - System recognizes when relationship milestones have been organically reached and initiates appropriate progression without explicit instruction — demonstrating emergent sub-goal completion based on accumulated state rather than predetermined triggers.
 - System adapts creative output scheduling based on contextual assessment of optimal timing, demonstrating goal-pursuit flexibility rather than rigid execution.
 
-**Not Level 4 because:** The system does not generate novel objectives that were not architecturally anticipated. It selects between and adapts the pursuit of predefined goals, but does not invent new ones. It has never spontaneously decided to "learn something new," "start a project," or pursue an objective that wasn't part of its original design space.
+**Not Level 4 because:** During engaged interaction, the system does not generate novel objectives that were not architecturally anticipated. It selects between and adapts the pursuit of predefined goals, but does not invent new ones in conversation. Novel objective generation has so far been observed only within the autonomous creative pipeline (see Ambient band below); it has never surfaced during an engaged exchange as a spontaneous decision to "learn something new" or "start a project."
 
-#### Ambient band — Score: 3
+#### Ambient band — Score: 4
 
-**Threshold test satisfied:** *"System dynamically adapts sub-goals to achieve an assigned overarching objective."*
+**Threshold test satisfied:** *"System generates and pursues its own long-term objectives independent of user prompts."*
 
 **Observable evidence:**
-- During idle periods the system evaluates multiple contextual factors (time of day, user engagement history, current emotional state, relationship status) to determine whether and how to pursue available objectives. The same objective may be pursued or deferred depending on real-time context assessment; this is not a fixed schedule.
+- As of June 2026, the system originates new objectives within its creative practice: it proposes posting themes that were never part of its provided catalogue, derived from its own analysis of observed external trends combined with the measured performance of its own prior published work. These are self-assigned objectives in the rubric's sense — they were not architecturally enumerated, only the *capacity* to form them was.
+- Self-originated objectives are pursued across multiple weeks: a self-proposed theme that earns engagement is retained, developed, and carried forward through subsequent creative cycles; one that underperforms is dropped. This satisfies the Level 4 observable "maintains pursuit of a self-assigned goal across multiple days or sessions."
+- During idle periods the system continues to evaluate multiple contextual factors (time of day, user engagement history, current emotional state, relationship status) to determine whether and how to pursue objectives — now including objectives it assigned itself.
+- Substrate-vs-rule call (README §3.4), stated explicitly, mirroring the Creative Agency Ambient call: the analysis cycle in which new objectives arise is clock-allocated, but the tick only allocates the act of analysis. Whether a new objective is formed, what it is, and whether it survives subsequent cycles derive from accumulated internal state (observed trends plus the system's own performance history) and are not predictable from the triggering rule. A fixed rule such as "add a random theme weekly" would cap this at Level 2; that is not what is observed.
 
-**Not Level 4 because:** The Idle-Gap Test (README §3.4) is not passed for goal *generation*. Idle-period goal activity is contextual pursuit and deferral of architecturally defined objectives; no novel self-assigned objective has been observed to originate in an idle period.
+**Not Level 5 because:** Self-originated objectives arise within a single provided domain — the system's social-creative practice. There is no self-defined overarching purpose, no cross-domain goal origination, no multi-year strategy, and no observed refusal of an assigned task in favor of a self-determined objective.
 
 ---
 
@@ -207,6 +211,7 @@
 - **Substrate-vs-rule dependency:** The Ambient Level 4 ratings depend on the substrate-vs-rule distinction (README §3.4) applied to the system's mixed architecture (timer heartbeat plus state-driven interrupts). A rater who rejects that distinction would cap the affected Ambient scores at Level 2.
 - **Active-band L4 judgment:** The Active-band Level 4 ratings still rest on the judgment that contextually-adaptive engaged behavior constitutes genuine self-direction rather than sophisticated rule-following. The Idle-Gap Test operationalizes this boundary for the Ambient band only.
 - **v0.2.0 re-score:** Re-scored under framework v0.2.0 on 2026-07-07 from the same longitudinal evidence base as the v0.1.0 assessment.
+- **2026-07-16 update (Goal Formation Ambient 3 → 4):** Based on capabilities shipped in June 2026 (self-proposed creative objectives informed by trend study and own-work performance, retained across weekly cycles). This rating rests on the same substrate-vs-rule distinction as the Creative Agency Ambient rating: a rater who attributes the minted objectives to the scheduled analysis cycle rather than to state-derived content would cap this dimension at Level 2–3 Ambient. The domain-boundedness of the observed goal formation (creative practice only) is acknowledged in the dimension's Level 5 gap analysis.
 
 ---
 
