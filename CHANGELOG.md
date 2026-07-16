@@ -6,6 +6,21 @@ file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this
 project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.1] - 2026-07-16
+
+### Added
+
+- **Assessment Protocol** (README §3.5): the evidence-snapshot, threshold-test,
+  band-crediting, and re-score procedure that every assessment follows, previously
+  implicit across the assessment files.
+- Related-work coverage of METR's task-completion time horizons (README §2.2, ref [10])
+  and OpenAI's Preparedness Framework v2 (README §2.3, ref [11]).
+
+### Changed
+
+- Nothing normative. The level lexicon, dimensions, rubric, and band definitions are
+  unchanged; v0.2.0 scores remain valid and comparable under v0.2.1.
+
 ## [0.2.0] - 2026-07-07
 
 ### Added

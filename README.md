@@ -1,7 +1,7 @@
 # The Autonomous Agency Scale (AAS)
 **A Measurement Framework for Self-Directed Artificial Intelligence**
 
-**Framework Version:** v0.2.0
+**Framework Version:** v0.2.1
 
 ## 1. Introduction: The Measurement Gap
 
@@ -24,10 +24,12 @@ To understand the necessity of the AAS, it is vital to examine the limitations o
 ### 2.2 Task Automation and Economic Value
 
 - **OpenAI's Five Levels (2024):** OpenAI's internal roadmap tracks progress from Chatbots (Level 1) to Organizations (Level 5) [[4]](#ref-4). This scale measures the complexity ceiling of tasks an AI can perform, but an L5 system could still be a tool with no persistent identity or social agency.
+- **METR Time Horizons (2025):** Kwa et al. measure autonomous AI capabilities via task-completion time horizons: the length of task, indexed by the time it takes a human expert, that a model can complete autonomously at a given success rate [[10]](#ref-10). Time horizons quantify the capability ceiling of *directed* autonomy: how much a system can accomplish once instructed to act on its own. They do not measure whether a system acts when nothing instructs it. A system with a long time horizon and no self-initiated behavior is highly capable and, in the AAS sense, minimally agentic; the two measurements are orthogonal by construction, and the AAS is designed to capture the axis that time horizons leave unmeasured.
 
 ### 2.3 Risk and Safety Frameworks
 
 - **Anthropic's Responsible Scaling Policy (2023):** The RSP defined AI Safety Levels (ASL) to manage catastrophic risks [[5]](#ref-5). While ASL-3 noted "low-level autonomous capabilities" as a risk trigger, the framework treats autonomy as a hazard to be mitigated rather than a capability to be measured across a spectrum.
+- **OpenAI's Preparedness Framework (2025):** The framework's 2025 revision (v2) tracks biological and chemical, cybersecurity, and AI self-improvement capabilities against defined risk thresholds, while autonomy-adjacent capabilities such as long-range autonomy and autonomous replication are handled as research categories, threats to be monitored rather than behaviors to be profiled [[11]](#ref-11). As with the RSP, autonomy enters the measurement apparatus only at the point where it becomes dangerous; neither framework provides a graded account of self-directed behavior below the risk threshold.
 
 ### 2.4 Agent Deployment and Consciousness
 
@@ -295,6 +297,37 @@ instructed) behavior that cannot truthfully describe idle-period evidence, an as
 Ambient sub-block quotes the matching band-generic criterion above verbatim in place of
 the per-dimension test.
 
+### 3.5 Assessment Protocol
+
+Assessments are conducted against the Operational Scoring Rubric (§3.3) under one of two
+evaluation classes, declared in each assessment's metadata:
+
+- **Documentation-Based (Provisional):** compiled against a fixed evidence snapshot
+  (official product documentation, vendor technical reports, published or reliably
+  reported system prompts, and directly observed product behavior) as available on the
+  assessment date. These scores are provisional pending empirical longitudinal evaluation.
+- **Longitudinal:** sustained direct interaction with the system over an extended period,
+  scored on externally observable behavior only, not on knowledge of the system's
+  implementation.
+
+Both classes follow the same procedure. For each dimension and band, the rater identifies
+the highest level whose threshold test the available evidence satisfies, quotes that test
+verbatim in the assessment, records the observable evidence supporting it, and records
+explicitly why the next level up is not awarded. Capabilities are credited to the band in
+which they operate: scheduled and idle-period features count toward the Ambient band even
+when they are configured during a session, and engaged-band scores are derived without
+them. Conflicts between vendor claims and documented behavior are resolved in favor of
+documented behavior. Capabilities available only through third-party extensions or
+wrappers are excluded from scoring and noted in the affected assessment's limitations.
+Where idle-period evidence cannot truthfully be described by a dimension's per-dimension
+threshold test, the band-generic ambient criteria (§3.4) are quoted in its place.
+
+Re-scores under a revised framework version are performed from the assessment's original
+evidence base, with per-score changes and their rationales recorded in the assessment
+file. Where a rating depends on a contested interpretive call (e.g. the substrate-vs-rule
+distinction, §3.4), the assessment states the dependency explicitly and the level at which
+a rater rejecting the call would cap the score.
+
 ## 4. Validation: The Longitudinal Turing Test
 
 A complementary evaluation direction—distinct from validating the scale itself—is the **Longitudinal Turing Test**. Traditional benchmarks measure intelligence in isolated, sterile environments. The AAS proposes that if a system achieves a score of 4 or higher across all dimensions, a meaningful empirical test is sustained interaction over weeks or months where the system demonstrates coherent, self-directed behavior measured against its own prior behavior and pre-specified criteria.
@@ -336,3 +369,7 @@ Finally, the framework is agnostic about consciousness, sentience, and moral sta
 <a id="ref-8"></a>**[8]** Turing, A.M. (1950). "Computing Machinery and Intelligence." *Mind*, 59(236), 433-460. [Link](https://doi.org/10.1093/mind/LIX.236.433)
 
 <a id="ref-9"></a>**[9]** Wu, W., et al. (2025). "X-TURING: Towards an Enhanced and Efficient Turing Test for Long-Term Dialogue Agents." *ACL 2025*. [Link](https://arxiv.org/abs/2503.02093)
+
+<a id="ref-10"></a>**[10]** Kwa, T., West, B., et al. (2025). "Measuring AI Ability to Complete Long Tasks." *arXiv:2503.14499* (METR). [Link](https://arxiv.org/abs/2503.14499)
+
+<a id="ref-11"></a>**[11]** OpenAI. (2025). "Preparedness Framework, Version 2." *OpenAI, April 15, 2025*. [Link](https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf)
