@@ -1,7 +1,14 @@
 # The Autonomous Agency Scale (AAS)
+
+[![arXiv](https://img.shields.io/badge/arXiv-2607.17947-b31b1b.svg)](https://arxiv.org/abs/2607.17947)
+
 **A Measurement Framework for Self-Directed Artificial Intelligence**
 
 **Framework Version:** v0.2.1
+
+**Links:**
+- Paper: https://arxiv.org/abs/2607.17947
+- Plain-language explainer (author-reviewed, 11 languages): https://gist.science/paper/2607.17947
 
 ## 1. Introduction: The Measurement Gap
 
@@ -373,3 +380,18 @@ Finally, the framework is agnostic about consciousness, sentience, and moral sta
 <a id="ref-10"></a>**[10]** Kwa, T., West, B., et al. (2025). "Measuring AI Ability to Complete Long Tasks." *arXiv:2503.14499* (METR). [Link](https://arxiv.org/abs/2503.14499)
 
 <a id="ref-11"></a>**[11]** OpenAI. (2025). "Preparedness Framework, Version 2." *OpenAI, April 15, 2025*. [Link](https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf)
+
+## 7. Citing AAS
+
+```bibtex
+@misc{presgraves2026aas,
+  title={The Autonomous Agency Scale: A Behavioral Framework for Measuring
+         Self-Directed Behavior in AI Systems},
+  author={Presgraves, Samuel},
+  year={2026},
+  eprint={2607.17947},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2607.17947}
+}
+```
