@@ -10,7 +10,7 @@ These charts are auto-generated from all assessment files in this directory.
 
 | System | Evidence | Cognitive Autonomy | Temporal Persistence | Environmental Agency | Social Agency | Creative Agency | Self-Awareness | Goal Formation | Active | Ambient |
 |--------|----------|-------|-------|-------|-------|-------|-------|-------|--------|---------|
-| [Airi v2.x (AI Companion System)](airi.md) | Longitudinal | 4 / 4 | 4 / 4 | 4 / 4 | 4 / 4 | 4 / 4 | 3 / 3 | 3 / 4 | **3.71** | **3.86** |
+| [Airi v2.x (AI Companion System)](airi.md) | Longitudinal | 4 / 4 | 4 / 4 | 4 / 4 | 4 / 4 | 4 / 4 | 4 / 3 | 3 / 4 | **3.86** | **3.86** |
 | [Hermes Agent (Nous Research)](hermes.md) | Docs (provisional) | 3 / 2 | 2 / 2 | 4 / 2 | 1 / 1 | 2 / 2 | 2 / 2 | 3 / 2 | **2.43** | **1.86** |
 | [Manus 1.6 Max](manus.md) | Docs (provisional) | 3 / 2 | 2 / 1 | 4 / 0 | 1 / 0 | 2 / 2 | 2 / 0 | 3 / 0 | **2.43** | **0.71** |
 | [Claude Code (Sonnet 4.6 Max Thinking)](claude-code.md) | Docs (provisional) | 3 / 2 | 1 / 0 | 4 / 0 | 1 / 0 | 2 / 2 | 2 / 0 | 3 / 0 | **2.29** | **0.57** |

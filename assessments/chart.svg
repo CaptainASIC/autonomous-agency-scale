@@ -31,13 +31,13 @@
 <text x="72.1" y="420.4" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#d1d5db" text-anchor="end" dominant-baseline="middle">Awareness</text>
 <text x="127.2" y="165.3" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#d1d5db" text-anchor="end" dominant-baseline="middle">Goal</text>
 <text x="127.2" y="179.3" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#d1d5db" text-anchor="end" dominant-baseline="middle">Formation</text>
-<polygon points="350.0,150.0 506.4,225.3 545.0,394.5 436.8,530.2 263.2,530.2 203.8,383.4 232.7,256.5" fill="rgba(236, 72, 153, 0.15)" stroke="#ec4899" stroke-width="2.5"/>
+<polygon points="350.0,150.0 506.4,225.3 545.0,394.5 436.8,530.2 263.2,530.2 155.0,394.5 232.7,256.5" fill="rgba(236, 72, 153, 0.15)" stroke="#ec4899" stroke-width="2.5"/>
 <circle cx="350.0" cy="150.0" r="4" fill="#ec4899" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="506.4" cy="225.3" r="4" fill="#ec4899" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="545.0" cy="394.5" r="4" fill="#ec4899" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="436.8" cy="530.2" r="4" fill="#ec4899" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="263.2" cy="530.2" r="4" fill="#ec4899" stroke="#0a0a0f" stroke-width="1.5"/>
-<circle cx="203.8" cy="383.4" r="4" fill="#ec4899" stroke="#0a0a0f" stroke-width="1.5"/>
+<circle cx="155.0" cy="394.5" r="4" fill="#ec4899" stroke="#0a0a0f" stroke-width="1.5"/>
 <circle cx="232.7" cy="256.5" r="4" fill="#ec4899" stroke="#0a0a0f" stroke-width="1.5"/>
 <polygon points="350.0,300.0 428.2,287.7 447.5,372.3 371.7,395.0 328.3,395.0 252.5,372.3 271.8,287.7" fill="rgba(251, 146, 60, 0.15)" stroke="#fb923c" stroke-width="2.5"/>
 <circle cx="350.0" cy="300.0" r="4" fill="#fb923c" stroke="#0a0a0f" stroke-width="1.5"/>
@@ -81,7 +81,7 @@
 <circle cx="271.8" cy="287.7" r="4" fill="#fbbf24" stroke="#0a0a0f" stroke-width="1.5"/>
 <rect x="10" y="505" width="220" height="170" rx="6" fill="#111118" stroke="#374151" stroke-width="1"/>
 <rect x="20" y="520" width="14" height="14" rx="2" fill="#ec4899"/>
-<text x="42" y="530" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e5e7eb" dominant-baseline="middle">Airi v2.x (AI Companion System) (3.71)</text>
+<text x="42" y="530" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e5e7eb" dominant-baseline="middle">Airi v2.x (AI Companion System) (3.86)</text>
 <rect x="20" y="545" width="14" height="14" rx="2" fill="#fb923c"/>
 <text x="42" y="555" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#e5e7eb" dominant-baseline="middle">ChatGPT (GPT-5.5 / Pro Tier) (1.57)</text>
 <rect x="20" y="570" width="14" height="14" rx="2" fill="#60a5fa"/>
